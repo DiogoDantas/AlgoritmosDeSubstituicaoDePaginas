@@ -86,7 +86,7 @@ def LRU(number_of_frames, acess_sequence):
 	print("LRU", missing_pages)
 
 def main():
-	file = open("input.txt", "r")
+	file = open("../inputs/input.txt", "r")
 
 	number_of_frames = int(file.readline())
 	acess_sequence = []
