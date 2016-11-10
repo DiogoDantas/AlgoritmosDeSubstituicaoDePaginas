@@ -1,4 +1,4 @@
-class Stack(object):
+class LRUstack(object):
 	__stack = []
 	__top = -1
 	__base = 0
@@ -22,7 +22,7 @@ class Stack(object):
 		self.__stack.append(value)
 		self.__top+=1
 
-	def pop(self,value):
+	def remove(self,value):
 		if (value not in self.__stack):
 			return
 
